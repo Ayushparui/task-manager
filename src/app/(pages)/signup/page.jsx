@@ -19,7 +19,7 @@ const Signup = () => {
         e.preventDefault()
         try {
             const response = await axios.post("/api/users/signup", data)
-            if(response){
+            if(response && response.data.success === true){
                 router.push("/login")
             }
         } catch (error) {
