@@ -1,6 +1,4 @@
-.box{
-    border: 1px solid white;
-}
+
 .modal, .overlay {
     width: 100vw;
     height: 100vh;
@@ -26,4 +24,55 @@
     border-radius: 3px;
     width: 600px;
     height: 300px;
+}
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+
+}
+.sidebar{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    display: flex;
+}
+.filterButtons button{
+    border: 1px solid white;
+    width: 80%;
+    height: 30%;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+.logoutBtn{
+    margin-top: 500px;
+}
+.header{
+    border: 1px solid white;
+    width: 85vw;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taskInsideContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 200px;
+    margin: 10px;
 }
