@@ -50,3 +50,10 @@ TOKEN_SECRET = "replace with any string you want, can be your name or anything"
 ## This Project is Deployed on Netlify
 
 Check out our [Link](https://cozy-crepe-8b8cd7.netlify.app/) for more details.
+
+Live Demo:
+
+
+https://github.com/Ayushparui/task-manager/assets/55699684/952c8f6e-ce72-445b-b7b1-11a6771d986a
+
+
