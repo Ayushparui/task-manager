@@ -1,0 +1,47 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+   overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2882EE;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.submitBtn{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    background-color: #F75D59;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.signUp{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #F75D59;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
