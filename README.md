@@ -18,6 +18,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+## File Structure
+
+![image](https://github.com/Ayushparui/task-manager/assets/55699684/c4b169a8-25fa-47ec-9c11-e0769304bab7) ![image](https://github.com/Ayushparui/task-manager/assets/55699684/8845fb66-7d83-4230-b693-c6b1063deb1f)
+
+
+
+
 ## How to use it Locally
 
 This Project uses MongoDB for Database. To setup follow the process:
