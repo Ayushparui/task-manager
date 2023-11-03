@@ -18,19 +18,35 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How to use it Locally
 
-## Learn More
+This Project uses MongoDB for Database. To setup follow the process:
+1. Go to MongoDB website.
+2. Create a New Project write any Name for the Project
+![Screenshot (69)](https://github.com/Ayushparui/task-manager/assets/55699684/b5104683-5b01-41d3-be4e-1c68bdc91854)
+3. Go to Create and choose free cluster
+![Screenshot (71)](https://github.com/Ayushparui/task-manager/assets/55699684/e1dc6e81-400a-4d21-9f3a-3e4130881dff)
+4. Create a Username and password
+![Screenshot (72)](https://github.com/Ayushparui/task-manager/assets/55699684/6612938b-ba50-4474-800f-2f78635e2884)
+5. Add Ip address as 0.0.0.0/0 and Add Entry
+![image](https://github.com/Ayushparui/task-manager/assets/55699684/bfda2ee9-b12c-4f29-90c5-17788ba949a4)
+6. Finish and Close
+7. Click on the Connect and Go to Drivers:
+![image](https://github.com/Ayushparui/task-manager/assets/55699684/409f53a8-9596-445e-b458-bf7020d72589)
+8. Copy the URL in a notepad file and replace the password with the password you created with
+9. After Cloning the repo on the root folder create a .env file and add the following code:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+MONGO_URI = "replace with the url you copied in the notepad"
+TOKEN_SECRET = "replace with any string you want, can be your name or anything"
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+10. Save the file and run it.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## This Project is Deployed on Netlify
+
+Check out our [Link](https://cozy-crepe-8b8cd7.netlify.app/) for more details.
